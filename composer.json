@@ -1,0 +1,30 @@
+{
+	"name": "mrdev/bling-laravel",
+	"description": "Bling PHP SDK",
+	"keywords": ["bling", "api", "sdk"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marcio Renan Almeida",
+			"email": "eumarciorenan@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Bling\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Bling\\Tests\\": "tests"
+		}
+	},
+	"require": {
+
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0",
+		"symfony/dotenv": "^5.0",
+		"nesbot/carbon": "^2.33"
+	}
+}
