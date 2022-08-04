@@ -1,12 +1,12 @@
 {
-	"name": "mrdev/bling-laravel",
+	"name": "rits-tecnologia/bling-php-sdk",
 	"description": "Bling PHP SDK",
 	"keywords": ["bling", "api", "sdk"],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Marcio Renan Almeida",
-			"email": "eumarciorenan@gmail.com"
+			"name": "Juciano Araujo",
+			"email": "jucianoaraujo@rits.com.br"
 		}
 	],
 	"autoload": {
@@ -20,7 +20,7 @@
 		}
 	},
 	"require": {
-        "guzzlehttp/guzzle": "^7.3",
+		"guzzlehttp/guzzle": "^6.5",
 		"spatie/array-to-xml": "^2.11"
 	},
 	"require-dev": {
